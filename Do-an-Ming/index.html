@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meo Meo Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Trang Chủ</a></li>
+            <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Meo Meo Shop</h1>
+                <p>Chọn một người bạn bốn chân, mang niềm vui đến gia đình bạn!</p>
+            </div>
+        </header>
+        <div class="container">
+            <div class="big-image">
+                <img src="sale.png" alt="Mèo khuyến mãi">
+            </div>
+            <section class="special-offers">
+                <h2>Ưu Đãi Đặc Biệt</h2>
+                <div class="products">
+                    <div class="product">
+                        <img src="munch.jpg" alt="Mèo Munchkin">
+                        <h3>Mèo Munchkin</h3>
+                        <p>Giá gốc: <s>100$</s></p>
+                        <p>Giá khuyến mãi: 11.1$</p>
+                        <button class="buy-btn" data-name="Mèo Munchkin" data-price="11.1$" data-img="munch.jpg"
+                            data-desc="Chân ngắn đáng yêu, năng động, thân thiện">Mua</button>
+                    </div>
+                    <div class="product">
+                        <img src="batu.jpg" alt="Mèo Ba Tư">
+                        <h3>Mèo Ba Tư</h3>
+                        <p>Giá gốc: <s>120$</s></p>
+                        <p>Giá khuyến mãi: 9.9$</p>
+                        <button class="buy-btn" data-name="Mèo Ba Tư" data-price="9.9$" data-img="batu.jpg"
+                            data-desc="Lông dài mềm mại, mặt phẳng, dịu dàng">Mua</button>
+                    </div>
+                    <div class="product">
+                        <img src="scottinsh.jpg" alt="Mèo Scottish Fold">
+                        <h3>Mèo Scottish Fold</h3>
+                        <p>Giá gốc: <s>150$</s></p>
+                        <p>Giá khuyến mãi: 14.9$</p>
+                        <button class="buy-btn" data-name="Mèo Scottish Fold" data-price="14.9$" data-img="scottinsh.jpg"
+                            data-desc="Tai gập đặc trưng, tính cách hiền lành">Mua</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="product-section">
+            <h2>Sản Phẩm</h2>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="sphinx.jpg" alt="Mèo Sphynx">
+                    <h3>Mèo Sphynx</h3>
+                    <ul>
+                        <li>Không lông</li>
+                        <li>Tính cách độc đáo</li>
+                        <li>Thông minh</li>
+                    </ul>
+                    <p>Giá bán: 90$</p>
+                    <button class="buy-btn" data-name="Mèo Sphynx" data-price="90$" data-img="sphinx.jpg"
+                        data-desc="Không lông, thông minh, thích gần gũi">Mua</button>
+                </div>
+                <div class="product-card">
+                    <img src="ragdol.jpg" alt="Mèo Ragdoll">
+                    <h3>Mèo Ragdoll</h3>
+                    <ul>
+                        <li>Lông dài, mềm mại</li>
+                        <li>Mắt xanh</li>
+                        <li>Dịu dàng</li>
+                    </ul>
+                    <p>Giá bán: 110$</p>
+                    <button class="buy-btn" data-name="Mèo Ragdoll" data-price="110$" data-img="ragdol.jpg"
+                        data-desc="Lông dài mềm mại, mắt xanh, dịu dàng">Mua</button>
+                </div>
+                <div class="product-card">
+                    <img src="beggal.jpg" alt="Mèo Bengal">
+                    <h3>Mèo Bengal</h3>
+                    <ul>
+                        <li>Lông đốm</li>
+                        <li>Năng động</li>
+                        <li>Ngoại hình hoang dã</li>
+                    </ul>
+                    <p>Giá bán: 130$</p>
+                    <button class="buy-btn" data-name="Mèo Bengal" data-price="130$" data-img="beggal.jpg"
+                        data-desc="Lông đốm, năng động, ngoại hình hoang dã">Mua</button>
+                </div>
+                <!-- Nhân đôi sản phẩm để trượt liền mạch -->
+                <div class="product-card">
+                    <img src="sphinx.jpg" alt="Mèo Sphynx">
+                    <h3>Mèo Sphynx</h3>
+                    <ul>
+                        <li>Không lông</li>
+                        <li>Tính cách độc đáo</li>
+                        <li>Thông minh</li>
+                    </ul>
+                    <p>Giá bán: 90$</p>
+                    <button class="buy-btn" data-name="Mèo Sphynx" data-price="90$" data-img="sphinx.jpg"
+                        data-desc="Không lông, thông minh, thích gần gũi">Mua</button>
+                </div>
+                <div class="product-card">
+                    <img src="ragdol.jpg" alt="Mèo Ragdoll">
+                    <h3>Mèo Ragdoll</h3>
+                    <ul>
+                        <li>Lông dài, mềm mại</li>
+                        <li>Mắt xanh</li>
+                        <li>Dịu dàng</li>
+                    </ul>
+                    <p>Giá bán: 110$</p>
+                    <button class="buy-btn" data-name="Mèo Ragdoll" data-price="110$" data-img="ragdol.jpg"
+                        data-desc="Lông dài mềm mại, mắt xanh, dịu dàng">Mua</button>
+                </div>
+                <div class="product-card">
+                    <img src="beggal.jpg" alt="Mèo Bengal">
+                    <h3>Mèo Bengal</h3>
+                    <ul>
+                        <li>Lông đốm</li>
+                        <li>Năng động</li>
+                        <li>Ngoại hình hoang dã</li>
+                    </ul>
+                    <p>Giá bán: 130$</p>
+                    <button class="buy-btn" data-name="Mèo Bengal" data-price="130$" data-img="beggal.jpg"
+                        data-desc="Lông đốm, năng động, ngoại hình hoang dã">Mua</button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-info">
+            <h1>Liên Hệ</h1>
+            <h2>MeoMeo Shop ᵘʷᵘ</h2>
+            <p>Trang mua sắm trực tuyến những chú mồn lèo.</p>
+            <div class="info">
+                <p><strong>Địa chỉ:</strong> Trường Đại học King Kông</p>
+                <p><strong>Điện thoại:</strong> 0360100có</p>
+                <p><strong>Email:</strong> meomeoshop@luadao.com</p>
+            </div>
+        </div>
+        <div class="contact-image">
+        </div>
+    </section>
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modalImg" src="" alt="Product Image">
+            <h3 id="modalName"></h3>
+            <p id="modalPrice"></p>
+            <p id="modalDesc"></p>
+            <button onclick="alert('Đã thêm vào giỏ hàng!')">Thêm vào giỏ hàng</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 MeoMeo Shop. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </div>
+        <p>Designed with ❤️ for cat lovers</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
